@@ -28,5 +28,15 @@ form button {
     margin-left: auto;
 }
 
+/* Header styles */
+
+header {
+    background-color: teal;
+    color: white;
+    padding: 1rem; /*ROughly equal to the size of the text it is really responsive*/
+    margin-bottom: 1rem;
+    text-align: center;
+
+}
 
  
