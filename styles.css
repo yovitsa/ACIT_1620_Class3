@@ -60,9 +60,6 @@ a{
     margin: 1rem 2rem 1rem 1rem;
     width:auto;
     white-space: nowrap;
-   
-    
-    
 }
 
 .img{
@@ -80,17 +77,14 @@ a{
     width: 100%;
     
 }
-.about_footer{
-    margin-top: 23.5rem;
 
-}
 footer{
     display: flex;
     justify-content: center;
     background-color: teal;
     color: #fff;
     position: static;
-    margin-top: 20rem;
+    margin-top: 30rem;
    
     
 } 
