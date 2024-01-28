@@ -99,12 +99,13 @@ footer{
      
         display: flex;
         flex-direction: row;
-        justify-content:flex-start;
+        align-items: flex-start;
+        padding-left: 0;
        }
     
-       li{
+    li{
         border-right: 0.2px solid gray;
-        margin: 2px 2px;
+        margin: 0px 2px;
         padding: 5px;
     }
      nav  li:last-child{
@@ -114,10 +115,10 @@ footer{
     .main-content{
            display: flex;
            flex-direction: column;
-           align-items: center;
+           /* align-items: center; */
     }
     .img{
-        max-width: 40%;
+        max-width: 30%;
     }
    
     
