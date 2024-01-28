@@ -39,31 +39,63 @@ header {
 
 }
 
-.main_content{
+.main-content{
     display: flex;
     flex-direction: row;
-    
-   
     width: auto;
     margin: 1.2rem;
 }
 li {
-    margin: 0 2rem 1rem 1rem;
+    margin: 1rem 2rem 1rem 1rem;
 }
+
 .img{
     float: left;
     display: flex;
-    height: 20%;
+    height: auto;
+    max-width: 20%;
     margin: 0.3rem;
     
 }
+.form_contact {
+    
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    
+}
+.about_footer{
+    margin-top: 23.5rem;
 
+}
 footer{
     display: flex;
     justify-content: center;
     background-color: teal;
     color: #fff;
     position: static;
+    margin-top: 20rem;
+   
+    
+} 
+
+
+@media screen and (max-width: 600px)
+{
+    aside nav ul{
+        float: left;
+        display: flex;
+        flex-direction: row;
+        align-items:flex-start
+       }
+    .main-content{
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+    }
+    .img{
+        max-width: 40%;
+    }
+   
     
 }
-
