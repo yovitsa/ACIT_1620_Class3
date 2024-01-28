@@ -39,4 +39,31 @@ header {
 
 }
 
- 
+.main_content{
+    display: flex;
+    flex-direction: row;
+    
+   
+    width: auto;
+    margin: 1.2rem;
+}
+li {
+    margin: 0 2rem 1rem 1rem;
+}
+.img{
+    float: left;
+    display: flex;
+    height: 20%;
+    margin: 0.3rem;
+    
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: teal;
+    color: #fff;
+    position: static;
+    
+}
+
