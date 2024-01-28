@@ -53,9 +53,14 @@ ul{
 a{
     color: teal;
     text-decoration: none;
+   
+   
 }
-li {
+ li {
     margin: 1rem 2rem 1rem 1rem;
+    width:auto;
+    white-space: nowrap;
+   
     
     
 }
