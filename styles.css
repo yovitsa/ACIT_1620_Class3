@@ -32,7 +32,7 @@ form button {
 
 header {
     background-color: teal;
-    color: white;
+    color: black;
     padding: 1rem; /*ROughly equal to the size of the text it is really responsive*/
     margin-bottom: 1rem;
     text-align: center;
@@ -45,8 +45,19 @@ header {
     width: auto;
     margin: 1.2rem;
 }
+ul{
+    list-style: none;
+   
+    
+}
+a{
+    color: teal;
+    text-decoration: none;
+}
 li {
     margin: 1rem 2rem 1rem 1rem;
+    
+    
 }
 
 .img{
@@ -82,12 +93,24 @@ footer{
 
 @media screen and (max-width: 600px)
 {
-    aside nav ul{
-        float: left;
+
+   
+   nav ul {
+     
         display: flex;
         flex-direction: row;
-        align-items:flex-start
+        justify-content:flex-start;
        }
+    
+       li{
+        border-right: 0.2px solid gray;
+        margin: 2px 2px;
+        padding: 5px;
+    }
+     nav  li:last-child{
+        border-right: none;
+    }
+  
     .main-content{
            display: flex;
            flex-direction: column;
